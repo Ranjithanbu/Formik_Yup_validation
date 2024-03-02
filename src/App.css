@@ -1,0 +1,84 @@
+.pacifico-regular {
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+  
+  letter-spacing: 2px;
+}
+
+.lobster-regular {
+  font-family: "Lobster", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.sidebar{
+    height:100vmax;
+    background-color: blue;
+}
+#addUser:hover{
+
+text-decoration: underline 3px;
+text-underline-offset:10px;
+color:white;
+
+}
+#AddAuthor{
+    
+
+color:white;
+}
+#AddAuthor:hover{
+text-decoration: underline 3px;
+text-underline-offset:10px;
+color:white;
+}
+#addUser{
+
+text-underline-offset:10px;
+color:white;
+margin-bottom:none;
+}
+.container{
+display: grid;
+height: 50vh;
+justify-content: center;
+align-items: center;
+
+}
+
+.text{
+color:black;
+text-shadow: 2px 2px 0.5px black;
+width:28ch;
+white-space: nowrap;
+overflow: hidden;
+animation:typing 2s steps(30)
+}
+
+@keyframes typing{
+  from {
+    width:0;
+}}
+
+home:active{
+  text-decoration: underline;
+color: blue;
+}
+#btn{
+  margin-left: 45%;
+  height:30px;
+  text-align: center;
+}
+#box{
+  border:1px solid black;
+padding: 5px;
+box-shadow:2px 2px 3.9px black; 
+}
+#mrg{
+  display:flex;
+  justify-content: flex-end;
+  
+  width: 100%;
+  
+}
